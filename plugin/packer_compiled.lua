@@ -69,20 +69,85 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  LuaSnip = {
+    loaded = true,
+    path = "/home/lakshya/.cache/nvim/site/pack/packer/start/LuaSnip",
+    url = "https://github.com/L3MON4D3/LuaSnip"
+  },
+  ["cmp-buffer"] = {
+    loaded = true,
+    path = "/home/lakshya/.cache/nvim/site/pack/packer/start/cmp-buffer",
+    url = "https://github.com/hrsh7th/cmp-buffer"
+  },
+  ["cmp-cmdline"] = {
+    loaded = true,
+    path = "/home/lakshya/.cache/nvim/site/pack/packer/start/cmp-cmdline",
+    url = "https://github.com/hrsh7th/cmp-cmdline"
+  },
+  ["cmp-nvim-lsp"] = {
+    loaded = true,
+    path = "/home/lakshya/.cache/nvim/site/pack/packer/start/cmp-nvim-lsp",
+    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
+  },
+  ["cmp-nvim-lua"] = {
+    loaded = true,
+    path = "/home/lakshya/.cache/nvim/site/pack/packer/start/cmp-nvim-lua",
+    url = "https://github.com/hrsh7th/cmp-nvim-lua"
+  },
+  ["cmp-path"] = {
+    loaded = true,
+    path = "/home/lakshya/.cache/nvim/site/pack/packer/start/cmp-path",
+    url = "https://github.com/hrsh7th/cmp-path"
+  },
+  cmp_luasnip = {
+    loaded = true,
+    path = "/home/lakshya/.cache/nvim/site/pack/packer/start/cmp_luasnip",
+    url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
   firenvim = {
     loaded = true,
     path = "/home/lakshya/.cache/nvim/site/pack/packer/start/firenvim",
     url = "https://github.com/glacambre/firenvim"
+  },
+  ["friendly-snippets"] = {
+    loaded = true,
+    path = "/home/lakshya/.cache/nvim/site/pack/packer/start/friendly-snippets",
+    url = "https://github.com/rafamadriz/friendly-snippets"
+  },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/home/lakshya/.cache/nvim/site/pack/packer/start/nvim-cmp",
+    url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-colorizer.lua"] = {
     loaded = true,
     path = "/home/lakshya/.cache/nvim/site/pack/packer/start/nvim-colorizer.lua",
     url = "https://github.com/norcalli/nvim-colorizer.lua"
   },
+  ["nvim-lsp-installer"] = {
+    loaded = true,
+    path = "/home/lakshya/.cache/nvim/site/pack/packer/start/nvim-lsp-installer",
+    url = "https://github.com/williamboman/nvim-lsp-installer"
+  },
+  ["nvim-lspconfig"] = {
+    loaded = true,
+    path = "/home/lakshya/.cache/nvim/site/pack/packer/start/nvim-lspconfig",
+    url = "https://github.com/neovim/nvim-lspconfig"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/lakshya/.cache/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["plenary.nvim"] = {
+    loaded = true,
+    path = "/home/lakshya/.cache/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["popup.nvim"] = {
+    loaded = true,
+    path = "/home/lakshya/.cache/nvim/site/pack/packer/start/popup.nvim",
+    url = "https://github.com/nvim-lua/popup.nvim"
   },
   ["tokyonight.nvim"] = {
     loaded = true,
@@ -90,7 +155,7 @@ _G.packer_plugins = {
     url = "https://github.com/folke/tokyonight.nvim"
   },
   vimwiki = {
-    config = { "\27LJ\2\nó\1\0\0\6\0\n\0\0196\0\0\0009\0\1\0004\1\3\0005\2\3\0006\3\0\0009\3\4\0039\3\5\3'\5\6\0B\3\2\2'\4\a\0&\3\4\3=\3\b\2>\2\1\1=\1\2\0006\0\0\0009\0\1\0)\1\0\0=\1\t\0K\0\1\0\23vimwiki_global_ext\18template_path./site/pack/packer/start/vimwiki/autoload/\tdata\fstdpath\afn\1\0\3\vsyntax\rmarkdown\bext\b.md\tpath\22~/.local/vimwiki/\17vimwiki_list\6g\bvim\0" },
+    config = { "\27LJ\2\nó\1\0\0\6\0\n\0\0196\0\0\0009\0\1\0004\1\3\0005\2\3\0006\3\0\0009\3\4\0039\3\5\3'\5\6\0B\3\2\2'\4\a\0&\3\4\3=\3\b\2>\2\1\1=\1\2\0006\0\0\0009\0\1\0)\1\0\0=\1\t\0K\0\1\0\23vimwiki_global_ext\18template_path./site/pack/packer/start/vimwiki/autoload/\tdata\fstdpath\afn\1\0\3\tpath\22~/.local/vimwiki/\vsyntax\rmarkdown\bext\b.md\17vimwiki_list\6g\bvim\0" },
     loaded = true,
     path = "/home/lakshya/.cache/nvim/site/pack/packer/start/vimwiki",
     url = "https://github.com/vimwiki/vimwiki"
@@ -100,7 +165,7 @@ _G.packer_plugins = {
 time([[Defining packer_plugins]], false)
 -- Config for: vimwiki
 time([[Config for vimwiki]], true)
-try_loadstring("\27LJ\2\nó\1\0\0\6\0\n\0\0196\0\0\0009\0\1\0004\1\3\0005\2\3\0006\3\0\0009\3\4\0039\3\5\3'\5\6\0B\3\2\2'\4\a\0&\3\4\3=\3\b\2>\2\1\1=\1\2\0006\0\0\0009\0\1\0)\1\0\0=\1\t\0K\0\1\0\23vimwiki_global_ext\18template_path./site/pack/packer/start/vimwiki/autoload/\tdata\fstdpath\afn\1\0\3\vsyntax\rmarkdown\bext\b.md\tpath\22~/.local/vimwiki/\17vimwiki_list\6g\bvim\0", "config", "vimwiki")
+try_loadstring("\27LJ\2\nó\1\0\0\6\0\n\0\0196\0\0\0009\0\1\0004\1\3\0005\2\3\0006\3\0\0009\3\4\0039\3\5\3'\5\6\0B\3\2\2'\4\a\0&\3\4\3=\3\b\2>\2\1\1=\1\2\0006\0\0\0009\0\1\0)\1\0\0=\1\t\0K\0\1\0\23vimwiki_global_ext\18template_path./site/pack/packer/start/vimwiki/autoload/\tdata\fstdpath\afn\1\0\3\tpath\22~/.local/vimwiki/\vsyntax\rmarkdown\bext\b.md\17vimwiki_list\6g\bvim\0", "config", "vimwiki")
 time([[Config for vimwiki]], false)
 if should_profile then save_profiles() end
 
