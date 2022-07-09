@@ -134,6 +134,11 @@ _G.packer_plugins = {
     path = "/home/lakshya/.cache/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/home/lakshya/.cache/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/lakshya/.cache/nvim/site/pack/packer/start/packer.nvim",
@@ -155,7 +160,7 @@ _G.packer_plugins = {
     url = "https://github.com/folke/tokyonight.nvim"
   },
   vimwiki = {
-    config = { "\27LJ\2\nó\1\0\0\6\0\n\0\0196\0\0\0009\0\1\0004\1\3\0005\2\3\0006\3\0\0009\3\4\0039\3\5\3'\5\6\0B\3\2\2'\4\a\0&\3\4\3=\3\b\2>\2\1\1=\1\2\0006\0\0\0009\0\1\0)\1\0\0=\1\t\0K\0\1\0\23vimwiki_global_ext\18template_path./site/pack/packer/start/vimwiki/autoload/\tdata\fstdpath\afn\1\0\3\tpath\22~/.local/vimwiki/\vsyntax\rmarkdown\bext\b.md\17vimwiki_list\6g\bvim\0" },
+    config = { "\27LJ\2\nó\1\0\0\6\0\n\0\0196\0\0\0009\0\1\0004\1\3\0005\2\3\0006\3\0\0009\3\4\0039\3\5\3'\5\6\0B\3\2\2'\4\a\0&\3\4\3=\3\b\2>\2\1\1=\1\2\0006\0\0\0009\0\1\0)\1\0\0=\1\t\0K\0\1\0\23vimwiki_global_ext\18template_path./site/pack/packer/start/vimwiki/autoload/\tdata\fstdpath\afn\1\0\3\bext\b.md\tpath\22~/.local/vimwiki/\vsyntax\rmarkdown\17vimwiki_list\6g\bvim\0" },
     loaded = true,
     path = "/home/lakshya/.cache/nvim/site/pack/packer/start/vimwiki",
     url = "https://github.com/vimwiki/vimwiki"
@@ -165,7 +170,7 @@ _G.packer_plugins = {
 time([[Defining packer_plugins]], false)
 -- Config for: vimwiki
 time([[Config for vimwiki]], true)
-try_loadstring("\27LJ\2\nó\1\0\0\6\0\n\0\0196\0\0\0009\0\1\0004\1\3\0005\2\3\0006\3\0\0009\3\4\0039\3\5\3'\5\6\0B\3\2\2'\4\a\0&\3\4\3=\3\b\2>\2\1\1=\1\2\0006\0\0\0009\0\1\0)\1\0\0=\1\t\0K\0\1\0\23vimwiki_global_ext\18template_path./site/pack/packer/start/vimwiki/autoload/\tdata\fstdpath\afn\1\0\3\tpath\22~/.local/vimwiki/\vsyntax\rmarkdown\bext\b.md\17vimwiki_list\6g\bvim\0", "config", "vimwiki")
+try_loadstring("\27LJ\2\nó\1\0\0\6\0\n\0\0196\0\0\0009\0\1\0004\1\3\0005\2\3\0006\3\0\0009\3\4\0039\3\5\3'\5\6\0B\3\2\2'\4\a\0&\3\4\3=\3\b\2>\2\1\1=\1\2\0006\0\0\0009\0\1\0)\1\0\0=\1\t\0K\0\1\0\23vimwiki_global_ext\18template_path./site/pack/packer/start/vimwiki/autoload/\tdata\fstdpath\afn\1\0\3\bext\b.md\tpath\22~/.local/vimwiki/\vsyntax\rmarkdown\17vimwiki_list\6g\bvim\0", "config", "vimwiki")
 time([[Config for vimwiki]], false)
 if should_profile then save_profiles() end
 
