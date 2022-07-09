@@ -5,7 +5,7 @@ end
 
 configs.setup({
 	ensure_installed = "all", -- one of "all" or a list of languages
-	ignore_install = { "" },
+	ignore_install = { "php" },
   highlight = {
     enable = true,
   },
