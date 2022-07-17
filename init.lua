@@ -7,4 +7,4 @@ require "user.vimwiki"
 require "user.colorscheme"
 require "user.cmp"
 require "user.lsp"
-require "user.treesitter"
+
