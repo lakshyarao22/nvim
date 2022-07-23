@@ -44,6 +44,7 @@ return packer.startup(function(use)
   use "nvim-lua/popup.nvim" -- An implementation of the Popup API from vim in Neovim
   use "nvim-lua/plenary.nvim" -- Useful lua functions used by lots of plugins
   use 'folke/tokyonight.nvim' -- Tokyonight Theme
+  use 'Mofiqul/vscode.nvim' --vscode Theme
   
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
