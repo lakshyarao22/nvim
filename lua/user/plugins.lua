@@ -62,25 +62,7 @@ return packer.startup(function(use)
   -- LSP
   use "neovim/nvim-lspconfig" -- enable LSP
   use "williamboman/nvim-lsp-installer" -- simple to use language server installer
-  use {
-    "vimwiki/vimwiki", branch = "dev",
-    -- keys = { "<leader>x" },
-    config = function()
-      vim.g["vimwiki_list"] = {
-        {
-          path = "~/.local/vimwiki/",
-          template_path = vim.fn.stdpath("data") .. "/site/pack/packer/start/vimwiki/autoload/",
-          syntax = "markdown",
-          ext = ".md"
-        }
-      }
-      vim.g["vimwiki_global_ext"] = 0
-    end
-  }
-  use {
-    'glacambre/firenvim',
-    run = function() vim.fn['firenvim#install'](0) end 
-  }
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
