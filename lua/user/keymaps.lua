@@ -32,8 +32,8 @@ keymap("n", "<C-l>", "<C-w>l", opts)
 
 keymap("n", "<leader>e", ":Lex 15<cr>", opts)
 keymap("n", "<leader>s", ":%s//g<Left><Left>", opts)
---keymap("n", "<leader>w", ":w<cr>", opts)
---keymap("n", "<leader>q", ":q<cr>", opts)
+keymap("n", "<leader>w", ":w<cr>", opts)
+keymap("n", "<leader>q", ":q<cr>", opts)
 
 -- Open Terminal
 keymap("n", "<leader>tt", ":sp<CR> :term<CR> :resize 10N<CR> i", opts)

@@ -46,6 +46,7 @@ return packer.startup(function(use)
   use 'folke/tokyonight.nvim' -- Tokyonight Theme
   use 'Mofiqul/vscode.nvim' --vscode Theme
   use 'tanvirtin/monokai.nvim' -- monokai theme
+  use 'Pocco81/auto-save.nvim' -- autosave
   
   -- cmp plugins
   use "hrsh7th/nvim-cmp" -- The completion plugin
